@@ -1,0 +1,91 @@
+.seccion1 {
+    height: 70vh;
+    background: url("../assets/hero1.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+    filter: grayscale(70%);
+    transition: 1s;
+    overflow: auto;
+    &:hover {
+        transition-duration: 1s;
+        filter: grayscale(0%);
+    }
+    h1{
+        color: rgb(255, 255, 255); 
+        font-size: 4.5rem; 
+        text-align: left; 
+        padding-left: 50px;
+        padding-top: 150px;
+    }
+    p{
+        color: white;
+        text-align: left; 
+        width: 50%;
+        font-size: 1.2rem; 
+        font-family: 'Roboto'; 
+        font-weight: bold;
+        padding-left: 50px;
+    }
+}
+
+.seccion2 {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0 70px;
+    background-color: white;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(240,255,254,1) 30%, rgba(232,251,255,1) 70%, rgba(230,237,255,1) 96%, rgba(0,0,0,1) 100%);
+    .seccion2B {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        margin: 50px 0;
+        iframe {
+            width: 100%;
+        }
+    }
+    .seccion2Bp {
+        font-size: 1.1rem;
+    }
+    h2 {
+        color: tomato;
+        font-size: 4rem;
+        margin: 50px 0;
+        text-align: center;
+    }
+    .btn {
+        font-size: 1rem;
+        font-family: 'Kanit';
+        color: white;
+        padding: 10px;
+        border: 1px solid rgb(252, 252, 252);
+        border-radius: 5px;
+        background-color: tomato;
+        transition: 1s;
+        &:hover {
+            background-color: red;
+            transition: transform .2s;
+            transform: scale(1.3);
+        }
+    }
+}
+
+.bx1 {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;
+}
+
+.grilla3 {
+    background-color: white;
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    grid-gap: 300px;
+    justify-content: space-around;
+    align-content: space-around;
+    margin: 50px 50px;
+}

@@ -1,0 +1,35 @@
+h2 {
+    list-style: none;
+    font-size: 1.5rem;
+    color: tomato;
+    font-family: 'Kanit', sans-serif;
+    margin: 0 30px;
+}
+
+h2 span{
+    color: rgb(141, 154, 255);
+    font-family: 'Roboto';
+}
+
+.navbar {
+    background: rgb(0, 0, 0);
+}
+.navbar-toggler {
+    font-size: 30px; 
+    color: rgb(255, 255, 255);
+}
+.nav-link {
+    color: rgb(255, 255, 255); 
+    font-size: 1.3rem; 
+    margin-right: 30px; 
+    font-weight: bold;
+}
+.nav-link:hover {
+    color: rgb(43, 255, 0);
+}
+.nav-link:focus {
+    color:red;
+}
+.active {
+    color: rgb(110, 243, 83);
+}

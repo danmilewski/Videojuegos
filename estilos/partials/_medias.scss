@@ -1,0 +1,26 @@
+@media (max-width: 800px){
+    .seccion1 p {
+        width: 100%;
+    }
+    .seccion2B {
+        flex-direction: column;
+    }
+    .grilla3 {
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+    }
+    .nav {
+        flex-direction: column;
+    }
+    .descripcion {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 550px){    
+    .footer ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
