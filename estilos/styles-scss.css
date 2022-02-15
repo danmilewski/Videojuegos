@@ -93,26 +93,9 @@ h2 span {
   background: linear-gradient(0deg, white 0%, #f0fffe 30%, #e8fbff 70%, #e6edff 96%, black 100%);
 }
 
-.seccion2 .seccion2B {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 5rem;
-  margin: 50px 0;
-}
-
-.seccion2 .seccion2B iframe {
-  width: 100%;
-}
-
 .seccion2 .seccion2Bp {
   font-size: 1.1rem;
+  padding: 60px 0;
 }
 
 .seccion2 h2 {
@@ -146,6 +129,10 @@ h2 span {
 
 .bx1 {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.seccion3 {
+  padding: 50px 0 0;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -197,6 +184,9 @@ h2 span {
 @media (max-width: 800px) {
   .seccion1 p {
     width: 100%;
+  }
+  .seccion2 {
+    padding: 0;
   }
   .seccion2B {
     -webkit-box-orient: vertical;
@@ -271,9 +261,10 @@ h2 span {
   border-bottom: #adadad solid 2px;
 }
 
-.seccion2-sony h2 {
-  font-size: 2.5rem;
+.seccion2-sony h1 {
+  font-size: 3rem;
   padding-bottom: 20px;
+  color: tomato;
 }
 
 .grid {
@@ -420,6 +411,12 @@ h2 span {
   padding: 80px 0;
 }
 
+.seccion2-xbox h1 {
+  font-size: 3rem;
+  padding-bottom: 20px;
+  color: tomato;
+}
+
 .seccion3-xbox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -481,7 +478,7 @@ h2 span {
           align-items: center;
 }
 
-.seccion1-not h2 {
+.seccion1-not h1 {
   font-size: 5rem;
   font-family: 'Roboto';
   color: white;
