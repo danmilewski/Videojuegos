@@ -1,5 +1,7 @@
 $verde: rgb(128, 255, 96);
-
+.body-sony {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(240, 249, 255) 30%, rgb(244, 246, 247) 70%, rgb(60, 72, 240) 100%, rgb(252, 249, 249) 100%);
+}
 .seccion1-sony {
     text-align: center; 
     background-color: black; 
@@ -76,7 +78,6 @@ h2 {
     flex-wrap: wrap;
     gap: 4rem;
     font-size: 1rem;
-    
 }
 
 .seccion3-sony img {

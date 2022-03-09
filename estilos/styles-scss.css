@@ -70,6 +70,7 @@ h2 span {
   text-align: left;
   padding: 50px 0;
   padding-left: 50px;
+  text-shadow: 2px 1px 1px black;
 }
 
 .seccion1 p {
@@ -80,6 +81,7 @@ h2 span {
   font-weight: bold;
   padding-left: 50px;
   padding-bottom: 50px;
+  text-shadow: 2px 1px 1px black;
 }
 
 .seccion2 {
@@ -259,6 +261,11 @@ h2 span {
         -ms-flex-pack: center;
             justify-content: center;
   }
+}
+
+.body-sony {
+  background: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(30%, #f0f9ff), color-stop(70%, #f4f6f7), color-stop(100%, #3c48f0), to(#fcf9f9));
+  background: linear-gradient(0deg, white 0%, #f0f9ff 30%, #f4f6f7 70%, #3c48f0 100%, #fcf9f9 100%);
 }
 
 .seccion1-sony {
