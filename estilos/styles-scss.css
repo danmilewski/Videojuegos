@@ -605,7 +605,7 @@ h2 {
 .seccion-noticias h3 {
   font-size: 2rem;
   color: tomato;
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
 
 .seccion-noticias p {
