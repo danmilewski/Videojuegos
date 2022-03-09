@@ -30,7 +30,8 @@
     width: 90%;
     margin: 0 auto;
     font-size: 1.2rem;
-    padding: 80px 0;
+    padding: 50px 0;
+    border-bottom: rgb(173, 173, 173) solid 2px;
     h1 {
         font-size: 3rem;
         padding-bottom: 20px;
@@ -44,8 +45,45 @@
     flex-wrap: wrap;
     gap: 4rem;
     font-size: 1rem;
+    margin: 150px 0;
+    box-sizing: border-box;
     img {
-        height: 200px;
+        height: 300px;
+        width: auto;
+    }
+    h3 {
+        font-size: 3rem;
+        color: #0b7c15;
+        padding: 25px 0;
+        border-top: 2px solid tomato;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    .btn2 {
+        font-size: 1.2rem;
+        font-family: 'Kanit';
+        color: white;
+        padding: 12px;
+        margin-bottom: 20px;
+        border: 1px solid rgb(252, 252, 252);
+        border-radius: 5px;
+        background-color: tomato;
+        transition: 1s;
+        &:hover {
+            background-color: red;
+            transition: transform .2s;
+            transform: scale(1.1);
+        }
     }
 }
 
+@media (max-width: 800px){
+    .seccion1-xbox img {
+        height: 150px;
+    }
+    .seccion3-xbox img {
+        height: 250px;
+        width: auto;
+    }
+}

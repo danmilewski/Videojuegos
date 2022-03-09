@@ -21,7 +21,16 @@
 }
 
 
-@media (max-width: 550px){    
+@media (max-width: 550px){ 
+    .seccion1 h1 {
+        font-size: 2.5em;
+        padding-left: 0;
+        text-align: center;
+    }
+    .seccion1 p {
+        padding-left: 0;
+        text-align: center;
+    }
     .footer ul {
         flex-direction: column;
         justify-content: center;

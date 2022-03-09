@@ -27,13 +27,20 @@ $verde: rgb(128, 255, 96);
     width: 90%;
     margin: auto;
     font-size: 1.2rem;
-    padding: 80px 0;
+    padding: 50px 0;
     border-bottom: rgb(173, 173, 173) solid 2px;
     h1 {
         font-size: 3rem;
         padding-bottom: 20px;
         color: tomato;
     }
+}
+
+h2 {
+    font-size: 2.1rem;
+    text-align: center;
+    margin: 20px 0;
+    color: tomato;
 }
 
 .grid {
@@ -114,5 +121,9 @@ $verde: rgb(128, 255, 96);
     }
     .box1, .box2, .box3, .box4, .box5 {
         grid-column: 1 / span 3;
+    }
+    .seccion1-sony img {
+        height: 100px;
+        width: auto;
     }
 }

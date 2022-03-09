@@ -10,10 +10,19 @@
     display: flex;
     list-style: none;
     gap: 5rem;
+    padding: 20px 0;
 }
 
 .footer li {
-    color: rgb(141, 154, 255);
+    color: rgb(135, 255, 124);
     font-size: 1.2rem;
     font-weight: bold;
+}
+
+.icono {
+    font-size: 50px;
+}
+
+.icono:hover {
+    color: rgb(94, 50, 255);
 }
